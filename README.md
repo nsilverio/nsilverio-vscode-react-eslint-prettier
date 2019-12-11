@@ -25,7 +25,7 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier  eslint-c
 
 ```
 {
-  "extends": ["airbnb", "prettier/react"],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["prettier", "react"],
   "rules": {
     "prettier/prettier": [
