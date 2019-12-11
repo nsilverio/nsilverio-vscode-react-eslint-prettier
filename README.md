@@ -1,6 +1,7 @@
 # VSCode - ESLint, Prettier & Airbnb Setup
 
 ### 1. Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) & [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions for VSCode
+Fot this example no changes were made to the default global configurations for both extensions
 
 ### 2. Bootstrap a react app
 
@@ -8,14 +9,19 @@
 npx create-react-app my-app
 cd react-app
 ```
-
-### 3. Install Packages
+### 3. Delete the entry "eslintConfig" from package.json
+```
+"eslintConfig": {
+    "extends": "react-app"
+  },
+```
+### 4. Install Packages
 
 ```
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier  eslint-config-react-app eslint-config-airbnb
 ```
 
-### 3. Create .eslintrc.json file
+### 5. Create .eslintrc.json file
 
 ```
 {
@@ -60,7 +66,7 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier  eslint-c
 }
 ```
 
-### 5. Edit VSCode settings.json
+### 6. Edit VSCode settings.json
 
 ```js
 {
