@@ -1,6 +1,6 @@
 # VSCode - ESLint, Prettier & Airbnb Setup
 
-### 1. Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) & [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)extensions for VSCode
+### 1. Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) & [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extensions for VSCode
 
 ### 2. Bootstrap a react app
 
